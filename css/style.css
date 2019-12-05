@@ -20,14 +20,14 @@ body {
 }
 
 .gif-block {
-    background: url(../img/top-2.gif) center no-repeat;
+    background: url(../img/top-2-с.gif) center no-repeat;
     background-size: cover;
     height: 730px;
 }
 
 .blur {
     filter: blur(2px);
-    background: url(../img/top-2.gif) center no-repeat;
+    background: url(../img/top-2-с.gif) center no-repeat;
     background-size: cover;
     height: 730px;
 }
@@ -65,7 +65,7 @@ body {
     font-size: 20px;
     line-height: 27px;
     font-weight: 400;
-    padding: 105px 0 0 0;
+    padding: 150px 0 0 0;
     color: #eeeeee;
     max-width: 700px;
     text-shadow: 1px 1px 2px #000;
@@ -80,7 +80,7 @@ body {
     font-size: 20px;
     margin: 0 auto;
     text-decoration: none;
-    text-shadow: 1px 1px 2px #000;
+    text-shadow: 1px 1px 2px #343749;
     padding: 0 0 50px 0;
 }
 
@@ -160,6 +160,7 @@ body {
     font-weight: 700;
     font-size: 42px;
     line-height: 57px;
+    margin: 0 0 10px 0;
 }
 
 .product-description {
@@ -199,6 +200,10 @@ body {
     border: 2px solid #fff;
 }
 
+.read {
+    display: none;
+}
+
 .img-part {
     margin: 0 auto;
     text-align: center;
@@ -228,12 +233,8 @@ body {
 
 .mt- {
     margin-top: -70px;
-    padding-top: 190px;
+    padding-top: 150px;
 }
-
-
-
-
 
 
 
@@ -313,8 +314,8 @@ body {
     }
 
     .intro {
-        margin: 0 auto 30px auto;
-        padding: 30px 0 0 0;
+        margin: 0 auto 60px auto;
+        padding: 100px 0 0 0;
     }
 
     .b03 {
