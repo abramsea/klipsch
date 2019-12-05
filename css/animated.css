@@ -1,0 +1,8 @@
+.animated {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1; 
+    transition: all 0.4s;
+}
