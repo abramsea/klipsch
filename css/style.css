@@ -20,14 +20,14 @@ body {
 }
 
 .gif-block {
-    background: url(../img/top-2-с.gif) center no-repeat;
+    background: url(../img/top-2.gif) center no-repeat;
     background-size: cover;
     height: 730px;
 }
 
 .blur {
     filter: blur(2px);
-    background: url(../img/top-2-с.gif) center no-repeat;
+    background: url(../img/top-2.gif) center no-repeat;
     background-size: cover;
     height: 730px;
 }
@@ -99,7 +99,8 @@ body {
     display: inline-block;
     text-align: center;
     padding: 0 3px;
-    margin: 20px auto;
+    margin: 20px auto; 
+    max-width: 48%;
 }
 
 .product a {
@@ -321,7 +322,7 @@ body {
 
 
     .products {
-        max-width: 40%;
+        max-width: 100%;
     }
     
       
